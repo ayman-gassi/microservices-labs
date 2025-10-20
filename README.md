@@ -7,7 +7,6 @@ This workspace contains multiple Spring Boot microservices built with Maven. Eac
 - `1-service-product` — Product service (entities, DTOs, mapper, repository, service layer)
 - `2-TP_com/TP_com_Etudiant` — Etudiant (Student) service (controller, DTOs, mapper, repository, service)
 - `2-TP_com/TP_com_Filiere` — Filiere (Program) service (controller, DTOs, mapper, repository, service)
-- `doc/` — Documentation assets (ignored by Git via root `.gitignore`)
 
 ## Prerequisites
 
