@@ -1,0 +1,39 @@
+# Root .gitignore for multi-project workspace
+
+# Ignore documentation folder
+/doc/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.iml
+.idea/
+.vscode/
+
+# Java/Maven
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+
+# Build output
+**/target/
+**/build/
+
+# Maven Wrapper binaries
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+.spring-boot-devtools.properties
+
+# Logs
+logs/
+*.log
+
+# Coverage and reports
+**/surefire-reports/
+**/failsafe-reports/
+**/jacoco/*.exec
+
+# Node (if front-ends appear later)
+node_modules/
